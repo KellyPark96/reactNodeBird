@@ -10,5 +10,3 @@ const Home = () => {
 }
 
 export default Home;
-
-// pages 폴더는 일종의 router
