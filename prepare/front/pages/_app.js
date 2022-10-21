@@ -1,23 +1,22 @@
-// _app.js는 pages들의 공통 부분
 import React from 'react';
-import PropTypes from "prop-types";
-import Head from 'next/head';
+import PropTypes from 'prop-types';
 import 'antd/dist/antd.css';
+import Head from 'next/head';
 
-const NodeBird = ({Component}) => {
+const App = ({Component})=> {
     return (
         <>
-        <Head>
-            <meta charSet="utf-8" />
-            <title>NodeBird</title>
-        </Head>
-        <Component />
+            <Head>
+                <meta charSet="utf-8" />
+                <title>Node</title>
+            </Head>
+            <Component/>
         </>
-    )
-};
+    );
+}
 
-NodeBird.propTypes = {
+App.propTypes = {
     Component: PropTypes.elementType.isRequired,
 }
 
-export default NodeBird;
+export default App;

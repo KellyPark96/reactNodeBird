@@ -7,9 +7,9 @@ const Profile = () => {
     return (
         <>
             <Head>
-                <title>회원가입 페이지 | NodeBird</title>
+                <title>SignUp | Node</title>
             </Head>
-            <AppLayout>회원가입 페이지</AppLayout>
+            <AppLayout>SignUp</AppLayout>
         </>
     )
 }
